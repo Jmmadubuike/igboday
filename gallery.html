@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Igbo Community in North Carolina</title>
+        <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="gallery.css">
+    </head>
+<body>
+    <header>
+        <div class="container">
+            <img src="logo.png" alt="Igbo Day Logo" class="logo logo-left">
+            <h1>Igbo Community</h1>
+            <p>in North Carolina</p>
+            <img src="logo.png" alt="Igbo Day Logo" class="logo logo-right">
+        </div>
+    </header>
+    
+    <nav>
+        <div class="container">
+            <div class="nav-toggle" id="nav-toggle">
+                &#9776;
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Gallery</h1>
+        <p>Igbo Day Festival Celebration 2022</p>
+    </header>
+    <main>
+        <div class="gallery">
+          <div class="gallery-item" onclick="openModal('image1.jpg')">
+            <img src="image1.jpg" alt="Image 1">
+          </div>
+          <div class="gallery-item" onclick="openModal('image2.jpg')">
+            <img src="image2.jpg" alt="Image 2">
+          </div>
+          <div class="gallery-item" onclick="openModal('image3.jpg')">
+            <img src="image3.jpg" alt="Image 3">
+          </div>
+          <div class="gallery-item" onclick="openModal('image4.jpg')">
+            <img src="image4.jpg" alt="Image 1">
+          </div>
+          <div class="gallery-item" onclick="openModal('image5.jpg')">
+            <img src="image5.jpg" alt="Image 2">
+          </div>
+          <div class="gallery-item" onclick="openModal('image6.jpg')">
+            <img src="image6.jpg" alt="Image 3">
+          </div>
+          <div class="gallery-item" onclick="openModal('image7.jpg')">
+            <img src="image7.jpg" alt="Image 1">
+          </div>
+          <div class="gallery-item" onclick="openModal('image8.jpg')">
+            <img src="image8.jpg" alt="Image 2">
+          </div>
+          <div class="gallery-item" onclick="openModal('image9.jpg')">
+            <img src="image9.jpg" alt="Image 3">
+          </div>
+          <div class="gallery-item" onclick="openModal('image10.jpg')">
+            <img src="image10.jpg" alt="Image 1">
+          </div>
+          <div class="gallery-item" onclick="openModal('image11.jpg')">
+            <img src="image11.jpg" alt="Image 2">
+          </div>
+          <div class="gallery-item" onclick="openModal('image12.jpg')">
+            <img src="image12.jpg" alt="Image 3">
+          </div>
+          <div class="gallery-item" onclick="openModal('image13.jpg')">
+            <img src="image13.jpg" alt="Image 1">
+          </div>
+          <div class="gallery-item" onclick="openModal('image14.jpg')">
+            <img src="image14.jpg" alt="Image 2">
+          </div>
+          <div class="gallery-item" onclick="openModal('image15.jpg')">
+            <img src="image15.jpg" alt="Image 3">
+          </div>
+          <div class="gallery-item" onclick="openModal('image16.jpg')">
+            <img src="image16.jpg" alt="Image 1">
+          </div>
+          <div class="gallery-item" onclick="openModal('image17.jpg')">
+            <img src="image17.jpg" alt="Image 2">
+          </div>
+          <div class="gallery-item" onclick="openModal('image18.jpg')">
+            <img src="image18.jpg" alt="Image 3">
+          </div>
+          <div class="gallery-item" onclick="openModal('image19.jpg')">
+            <img src="image19.jpg" alt="Image 1">
+          </div>
+          <div class="gallery-item" onclick="openModal('image20.jpg')">
+            <img src="image20.jpg" alt="Image 2">
+          </div>
+          <div class="gallery-item" onclick="openModal('image21.jpg')">
+            <img src="image21.jpg" alt="Image 3">
+          </div>
+          <!-- Add more gallery items as needed -->
+        </div>
+    </main>
+    
+      <!-- Modal -->
+    <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImg">
+        <div id="caption"></div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Igbo Community in North Carolina. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/*
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+*/
+.hero {
+    background: url('hero-bg.png') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero .cta-button {
+    background: #ff9800;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section {
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about, .donate {
+    background: #f4f4f4;
+    padding: 50px 0;
+}
+
+.highlight-list {
+    padding: 5px;
+    margin: 10px;
+}
+
+.container h2 {
+    
+}
+
+#highlights {
+    background-color: #ffd700;
+    color: #f4f4f4;
+}
+
+.list {
+    background-color: green;
+    max-width: 600px;
+    padding: 0.1rem;
+    margin: 20px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.list p {
+    color: white;
+}
+
+.donate .donate-button {
+    display: inline-block;
+    background: #ff9800;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer .contact-info, .footer .social-links {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.footer .contact-info li, .footer .social-links li {
+    margin-bottom: 10px;
+}
+
+.footer .social-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#countdown {
+    text-align: center;
+    font-size: 2em;
+    margin: 20px;
+    background-color: #ff9800;
+}
+
+#countdown .days {
+    color: red;
+}
+
+#countdown .hours {
+    color: green;
+}
+
+#countdown .minutes {
+    color: blue;
+}
+
+#countdown .seconds {
+    color: purple;
+}
+
+@media (max-width: 768px) {
+    #countdown {
+        text-align: center;
+        font-size: 1.5em;
+        margin: 10px;
+        background-color: #ff9800;
+    }
+}

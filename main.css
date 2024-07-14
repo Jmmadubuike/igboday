@@ -154,3 +154,12 @@ h2 {
         background-color: #ff9800;
     }
 }
+
+@media (max-width: 480px) {
+    #countdown {
+        text-align: center;
+        font-size: 1em;
+        margin: 5px;
+        background-color: #ff9800;
+    }
+}

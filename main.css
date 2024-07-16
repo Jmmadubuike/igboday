@@ -142,10 +142,19 @@ h2 {
     color: purple;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     #countdown {
         text-align: center;
         font-size: 1.5em;
+        margin: 10px;
+        background-color: #ff9800;
+    }
+}
+
+@media (max-width: 500px) {
+    #countdown {
+        text-align: center;
+        font-size: 1em;
         margin: 10px;
         background-color: #ff9800;
     }

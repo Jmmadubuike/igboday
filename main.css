@@ -55,9 +55,11 @@ section {
 
 article {
     max-width: 700px;
-    margin: 0 auto;
-    padding: 0 20px;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 10px
     background: lightgreen;
+    
 
 h2 {
     text-align: center;

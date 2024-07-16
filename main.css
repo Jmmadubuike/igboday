@@ -53,6 +53,11 @@ section {
     padding: 0 20px;
 }
 
+article {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 20px;
+
 h2 {
     text-align: center;
     margin-bottom: 20px;

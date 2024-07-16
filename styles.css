@@ -121,8 +121,12 @@ nav ul li a:hover {
     color: #777;
 }
 
+.middle {
+    font-weight: bolder;
+
 .post p {
     font-size: 1rem;
+    text-align: left;
 }
 
 .read-more {

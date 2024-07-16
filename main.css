@@ -53,14 +53,6 @@ section {
     padding: 0 20px;
 }
 
-article {
-    max-width: 700px;
-    margin: 10px auto;
-    padding: 20px;
-    border-radius: 10px
-    background-color: lightgreen;
-    
-
 h2 {
     text-align: center;
     margin-bottom: 20px;
@@ -74,10 +66,6 @@ h2 {
 .highlight-list {
     padding: 5px;
     margin: 10px;
-}
-
-.container h2 {
-    
 }
 
 #highlights {
@@ -157,17 +145,8 @@ h2 {
 @media (max-width: 768px) {
     #countdown {
         text-align: center;
-        font-size: 1em;
+        font-size: 1.5em;
         margin: 10px;
-        background-color: #ff9800;
-    }
-}
-
-@media (max-width: 480px) {
-    #countdown {
-        text-align: center;
-        font-size: 1em;
-        margin: 5px;
         background-color: #ff9800;
     }
 }

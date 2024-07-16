@@ -2,7 +2,7 @@
 
 function countdown() {
   const countdownElement = document.getElementById('countdown');
-  const targetDate = new Date('July 14, 2025 00:00:00').getTime();
+  const targetDate = new Date('June 14, 2025 00:00:00').getTime();
 
   const interval = setInterval(() => {
       const now = new Date().getTime();
